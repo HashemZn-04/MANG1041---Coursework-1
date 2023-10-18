@@ -1,6 +1,6 @@
 /* Q1. I am importing the excel file of baby names 'names' into sas and identify what type of database this file is using the 'dbms'command,
 as it is a CSV file using the PROC step */
-proc import datafile='\Users\hashe\OneDrive\Documents\Southampton Uni\Semester 2\MANG1041 - Analytics Programming 1\Coursework - 20%\names.csv'
+proc import datafile='ENTER PATH HERE'
 	out=names
 	dbms=csv;
 run;
